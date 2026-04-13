@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+
+:root {
+  --bg: #f3f4f6;
+  --text: #000000;
+  --card: #ffffff;
+}
+
+
+.dark {
+  --bg: #111827;
+  --text: #ffffff;
+  --card: #1f2937;
+}
+
+.bg-app {
+  background-color: var(--bg);
+}
+
+.text-app {
+  color: var(--text);
+}
+
+.card-app {
+  background-color: var(--card);
+}
