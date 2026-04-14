@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { FaEnvelope, FaLock, FaEye, FaEyeSlash } from 'react-icons/fa';
-import { getUsers } from "../utils/storage";
+import { getUsers } from "../utils/storage"
 
 const LogIn = () => {
   const [form, setForm] = useState({
