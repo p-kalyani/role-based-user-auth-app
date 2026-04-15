@@ -78,7 +78,15 @@ const App = () => {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
-      <ToastContainer position="top-right" autoClose={3000} />
+      <ToastContainer position="top-center"
+        autoClose={2000}
+        hideProgressBar={false}
+        newestOnTop
+        closeOnClick
+        pauseOnHover
+        draggable
+        theme="colored"
+        toastClassName="!w-auto !max-w-[90%] sm:!max-w-md !mx-auto !text-sm" />
     </div>
   )
 }

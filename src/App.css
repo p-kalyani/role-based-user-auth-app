@@ -1,17 +1,22 @@
 @import "tailwindcss";
 
-
 :root {
   --bg: #f3f4f6;
-  --text: #000000;
+  --text: #111827;
   --card: #ffffff;
+  --border: #e5e7eb;
 }
-
 
 .dark {
   --bg: #111827;
-  --text: #ffffff;
+  --text: #f9fafb;
   --card: #1f2937;
+  --border: #374151;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
 }
 
 .bg-app {
@@ -24,4 +29,10 @@
 
 .card-app {
   background-color: var(--card);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+.border-app {
+  border-color: var(--border);
 }
